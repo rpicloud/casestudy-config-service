@@ -10,7 +10,6 @@ server:
   port: 8888
 ---
 spring:
-  application:
   profiles: development
 server:
   port: 9888
