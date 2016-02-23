@@ -4,5 +4,5 @@ FROM hypriot/rpi-java
 # Build number hard-coded so far
 COPY target/deployable-application.jar /data/
 
-EXPOSE 5005
+EXPOSE 8888
 CMD ["java", "-jar", "deployable-application.jar"]
