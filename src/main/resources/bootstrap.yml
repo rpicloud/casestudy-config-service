@@ -12,4 +12,4 @@ server:
 spring:
   profiles: development
 server:
-  port: 9888
+  port: 8888
